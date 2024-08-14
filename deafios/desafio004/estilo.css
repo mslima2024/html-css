@@ -1,0 +1,14 @@
+li{
+    font-size: 12pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20pt;
+    font-weight: bolder;
+}
+p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 14pt;
+    font-weight: 500
+}

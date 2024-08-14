@@ -1,0 +1,26 @@
+/* Container principal para os vídeos */
+.container-videos {
+    display: flex;
+    flex-wrap: wrap; /* Permite quebrar em várias linhas */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    width: 100%; /* Ajustar para a largura desejada (máximo 100%) */
+    margin: 0 auto; /* Centraliza horizontalmente na tela */
+  }
+  
+  /* Cada vídeo */
+  .video {
+    width: 50%; /* 50% da largura do container (2 vídeos lado a lado) */
+    height: 300px; /* Ajuste a altura conforme necessário */
+
+    margin: 10px; /* Espaçamento entre os vídeos */
+  }
+  .rodape{
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aqua;
+    
+  }
+  footer p{
+    justify-content: center;
+  }

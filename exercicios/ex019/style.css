@@ -1,0 +1,42 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(227, 227, 241);
+    background-color: rgb(5, 56, 39);
+}
+h1{
+    color:rgb(236, 170, 89) ;
+}
+h1#principal{
+    color: brown;
+    font-size: 3em;
+    font-weight: 900;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: aquamarine;
+}
+h2{
+    color: blanchedalmond;
+}
+p{
+    color: rgb(241, 245, 25);
+    text-align: justify;
+    text-indent: 40px;
+}
+.basico{
+    color: rgb(200, 230, 34);
+    font-weight: bold;
+}
+.intermediario{
+    color: aqua;
+    font-weight: bolder;
+}
+.avancado{
+    color: red;
+    font-weight: lighter;
+}
+.destaque{
+    color: black;
+    background-color: rgba(228, 238, 139, 0.829);
+    text-align: center;
+}

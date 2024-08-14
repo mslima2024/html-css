@@ -1,0 +1,29 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 12pt;
+    
+}
+div img{
+    margin-bottom: -8px;
+    margin-right: -8px;
+    margin-top: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 3px;
+
+}
+.img-1{
+    animation-name: pingar;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes pingar {
+    0% {margin-top: 0px;}
+    50% {margin-top: -10px;}
+}   
+.img-2 {
+    transition: all 15;
+}
+.img-2:hover {
+    transform: rotate(45dg);
+}

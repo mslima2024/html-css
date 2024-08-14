@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML</title>
+</head>
+<body>
+    <h1>Imagens Dinâmicas</h1>
+    <p>Tente abrir este site em dispositivos diferentes, ou simplesmente, aumente e diminua o tamanho do seu navegador.</p>
+    <picture>
+        <source media="(max-width:200px )" srcset="imagens/cervo-pp.jpg" type="image/jpg">
+        <source media="(max-width:750px)" srcset="imagens/cervo-p.jpg" type="image/jpg">
+        <source media="(max-width:1050px)" srcset="imagens/cervo-m.jpg" type="image/jpg">
+        <img src="imagens/Cervo.jpg" alt="Imagem Flexível">
+    </picture>
+    <h1>Reproduzindo Áudios</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML 5.</p>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/Cuckoo-Clock - Quincas-Moreira.mp3" type="audio/mpeg">
+        <source src="midia/Cuckoo-Clock - Quincas-Moreira.ogg" type="audio/ogg">
+        <source src="midia/Cuckoo-Clock - Quincas-Moreira.wav" type="audio/wav">
+        <p>Infelizmente, seu navegador nâo consegue reproduzir áudios! <a href="midia/Cuckoo-Clock - Quincas-Moreira.mp3">Clique aqui para baixar o arquivo.</a></p>
+    </audio>
+</body>
+</html>

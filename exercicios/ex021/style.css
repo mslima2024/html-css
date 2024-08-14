@@ -1,0 +1,61 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: beige;
+    margin: 0%;
+}
+header{
+    background-color: aquamarine;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.164);
+    border-radius: 20px 20px 0px 0px;
+}
+nav{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(231, 228, 19);
+    padding: 10px;
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 5px 5px;
+    box-shadow: rgba(0, 0, 0, 0.048) 2px 2px 4px 1px;
+}
+nav a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(157, 7, 245, 0.678);
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+}
+nav a:hover{
+    text-decoration: underline;
+    color: black;
+    
+}
+main{
+    background-color: aliceblue;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.116);
+}
+article{
+    background-color: lightcyan;
+}
+article > aside{
+    background-color: lightblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    font-size: 0.5em;
+    text-align: right;
+    margin-bottom: 10px;
+}
+footer{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: blue;
+    color: yellow;
+    font-size: 12px;
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.164);
+}

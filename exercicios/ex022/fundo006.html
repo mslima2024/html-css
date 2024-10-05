@@ -3,20 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo Fixo de Tela</title>
     <style>
         body {
+        /*
             height: 100vh;
             background-color: black;
             background-image: url(imagens/wallpaper002.jpg);
             background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed;
+        */
+        
+            /* Shothand Backgroud: 
+                bacgroud: color > image > position > repeat > [size] > attachment
 
+                obs.: O Size não estava funcionando corretamente dentro do atachment
+                aí coloca-se abaixo
+            */
+            background: black url(imagens/wallpaper002.jpg) center center no-repeat fixed;
+            background-size: cover;
         }
         main {
             background-color: white;
-            width: 400px;
+            max-width: 700px;
             padding: 10px;
             margin: auto;
             border: 1px solid blue;
@@ -30,6 +41,18 @@
         <h1>Teste de Imagem de Fundo</h1>
 
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste corporis reprehenderit porro qui pariatur doloremque, rem, est quas necessitatibus ratione cum vel aperiam? Est voluptatum debitis obcaecati et placeat iusto. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam eos minima rem, rerum iste quis veniam temporibus, facere illo sint dolores quo eum labore! Dolorem distinctio accusantium nihil maiores molestiae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem mollitia obcaecati vitae cupiditate maxime nemo, voluptatibus explicabo ullam perspiciatis iure voluptatem incidunt recusandae iusto. Ea eligendi quisquam dolore temporibus dolor?</p>
+
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam nobis debitis similique alias quasi unde animi ad qui, magnam consectetur delectus rerum dolorum magni aperiam quam sint, id quas aliquam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio eveniet rem quae, dolores sunt impedit id magni explicabo enim modi sit blanditiis cum facilis laudantium debitis. Voluptatibus in deserunt est!
+        </p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora molestiae natus voluptatibus. Error in aspernatur architecto, dignissimos, incidunt ipsum exercitationem doloremque fugit suscipit quam quidem, molestiae dolorum. Quam, minus necessitatibus? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio ducimus molestiae omnis voluptatibus soluta quidem similique, deleniti maxime nobis quibusdam. Omnis laboriosam excepturi fugiat adipisci quaerat, deserunt dolor. Asperiores, expedita?</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam quos praesentium tempora debitis necessitatibus aperiam dolorum eos laudantium rerum fuga ut a maxime, dicta, voluptatibus non. Debitis modi voluptatem quis. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse maxime earum qui excepturi laboriosam hic, error ipsum assumenda debitis eaque, possimus quis nulla tempora vel enim eum vitae, modi illum. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores ea totam ex optio quis tenetur odit in iure quaerat sed porro beatae non dolor sit, doloribus velit ducimus numquam! Illo.</p>
+
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem, ratione. Dolore minus quibusdam tenetur veniam esse nemo fugiat dolorem, blanditiis velit. Ex, illum iusto laudantium ut magnam suscipit est ullam? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum ipsa ipsam molestiae et sapiente placeat aspernatur odit nihil perspiciatis consectetur. Hic maxime accusamus cupiditate ratione quia repellat excepturi ipsa reprehenderit! Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita placeat ad tenetur est magni? Mollitia voluptatum consequuntur possimus quod accusamus voluptates, sequi, assumenda ipsam laudantium totam eum. Repellat, repellendus quia!
+        </p>
+
     </main>
 </body>
 </html>

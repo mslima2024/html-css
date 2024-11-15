@@ -4,15 +4,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercícios de Tabelas</title>
+    <style>
+        body {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        table {
+            border-collapse: collapse;
+
+        }
+        caption {
+            font-size: 1.3em;
+            font-weight: bold;
+            padding: 10px;
+        }
+        th, td{
+            border: 1px solid rgb(8, 50, 236);
+            padding: 10px;
+        }
+        .cNome{
+            background-color: palevioletred;
+        }
+</style>
 </head>
 <body>
     <table>
+        <colgroup>
+            <col class="cNome">
+            <col class="cSexo">
+            <col class="cIdade">
+            <col class="cProf">
+        </colgroup>
         <caption>Cadastro</caption>
         <tr>
-            <th>Nome</th>
-            <th>Sexo</th>
-            <th>Idade</th>
-            <th>Profissão</th>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Maria</td>
+            <td>F</td>
+            <td>35</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>João</td>
+            <td>M</td>
+            <td>30</td>
+            <td>Designer</td>
+        </tr>
+        <tr>
+            <td>Larissa</td>
+            <td>F</td>
+            <td>42</td>
+            <td>Médica</td>
+        </tr>
+        <tr>
+            <td>Mário Sérgio</td>
+            <td>M</td>
+            <td>52</td>
+            <td>Programador</td>
         </tr>
     </table>
 </body>

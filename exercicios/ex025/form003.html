@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário 3</title>
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }   
+    </style>
+</head>
+<body>
+   <h1>Teste de Formulário</h1>
+   <form action="cadastro.php" method="post" autocomplete="on"></form> 
+        <p>
+            <label for="inome">Nome Completo:</label>
+            <input type="text" name="nome" id="inome" placeholder="Digite seu nome completo" required minlength="5" maxlength="50" autocomplete="name">
+        </p>
+        <p>
+            <label for="imedia">Média:</label>
+            <input type="number" name="media" id="imedia" placeholder="Digite sua média" required min="0" max="10" step="0.1" >
+        </p>
+</body>
+</html>

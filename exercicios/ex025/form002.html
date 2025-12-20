@@ -13,15 +13,18 @@
 <body>
    <h1> Teste de Formulário</h1>
    <p>
-    <form action="cadastro.php" method="get">
+    <form action="cadastro.php" method="POST" autocomplete="on">
         <p>
-            <label for="iusu">Usuário:</label> <input type="text" name="nome" id="iusu" placeholder="Digite seu Usuário">
+            <label for="iusu">Usuário:</label> <input type="text" name="nome" id="iusu" placeholder="Digite seu Usuário" required minlength="5" maxlength="15" autocomplete="username">
         </p>
         <p>
             <label for="isen">Senha:</label>
-            <input type="password" name="senha" id="isen" placeholder="Digite sua Senha">
+            <input type="password" name="senha" id="isen" placeholder="Digite sua Senha" required minlength="6" maxlength="20" autocomplete="current-password">
         </p>
-        <p><input type="submit" value="Enviar"></p>
+        <p><input type="submit" value="Enviar">
+        <input type="reset" value="Limpar"></p>.
+        
+
     </form>
    </p> 
 </body>

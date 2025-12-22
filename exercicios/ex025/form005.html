@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário 5</title>
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Teste de Formulário</h1>
+    <form action="cadastro.php" method="post">
+        <fieldset>
+            <legend>Sexo</legend>
+            <p>
+                <label for="imasculino">Masculino:</label>
+                <input type="radio" name="sexo" id="imasculino" value="Masculino">
+            </p>
+            <p>
+                <label for="ifeminino">Feminino:</label>
+                <input type="radio" name="sexo" id="ifeminino" value="Feminino">    
+            </p>
+            <p>
+                <label for="ioutro">Outro:</label>
+                <input type="radio" name="sexo" id="ioutro" value="Outro">
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Esportes Favoritos</legend>
+            <p>
+                <label for="ifutebol">Futebol:</label>
+                <input type="checkbox" name="esportes[]" id="ifutebol" value="Futebol" checked> 
+            </p>
+            <p>
+                <label for="ibasquete">Basquete:</label>
+                <input type="checkbox" name="esportes[]" id="ibasquete" value="Basquete">
+            </p>
+            <p>
+                <label for="ivolei">Vôlei:</label>
+                <input type="checkbox" name="esportes[]" id="ivolei" value="Vôlei">
+            </p>
+                <label for="itenis">Tênis</label>
+                <input type="checkbox" name="esportes[]" id="itenis" value="Tênis">
+            </p>
+                <label for="inata">Natação:</label>
+                <input type="checkbox" name="esportes[]" id="inata" value="Natação">
+            </p>
+
+
+        </fieldset>
+            <p>
+                <input type="submit" value="Enviar Dados">
+                <input type="reset" value="Limpar Dados">
+            </p>
+    </form>
+</body>
+</html>

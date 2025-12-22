@@ -15,15 +15,18 @@
     <h1>Teste de Formulário</h1>
     <form action="cadastro.php" method="post" autocomplete="on">
 
-        <p>
-            <label for="iemail">Email:</label>
-            <input type="email" name="email" id="iemail" placeholder="Digite seu email" required maxlength="50" autocomplete="email">
-        </p>
-        <p>
-            <label for="itel">Telefone:</label>
-            <input type="tel" name="telefone" id="itel" placeholder="(XX) XXXXX-XXXX" required pattern="\([0-9]{2}\) [0-9]{4,5}-[0-9]{4}" autocomplete="tel">
-        
-        </p>
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <p>
+                <label for="iemail">Email:</label>
+                <input type="email" name="email" id="iemail" placeholder="Digite seu email" required maxlength="50" autocomplete="email">
+            </p>
+            <p>
+                <label for="itel">Telefone:</label>
+                <input type="tel" name="telefone" id="itel" placeholder="(XX) XXXXX-XXXX" required pattern="\([0-9]{2}\) [0-9]{4,5}-[0-9]{4}" autocomplete="tel">
+            
+            </p>
+        </fieldset>
         <p>
             <input type="submit" value="Enviar Dados">
             <input type="reset" value="Limpar Dados">

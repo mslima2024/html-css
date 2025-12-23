@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário 8</title>
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+    <form action="cadastro.php" method="POST">
+        <fieldset>
+            <legend>Cálculos em Formulários</legend>
+            <label for="in1">Número 1:</label>
+            <input type="number" name="num1" id="in1" step="any" min="0" max="50" required oninput="isoma.innerHTML=Number(in1.value) + Number(in2.value)"><br><br>
+            <label for="in2">Número 2:</label>
+            <input type="number" name="num2" id="in2" step="any" min="0" max="50" required oninput="isoma.innerHTML=Number(in1.value) + Number(in2.value)"><br><br>
+            <label for="isoma">Soma:</label>
+            <output name="soma" id="isoma">0</output>          
+        </fieldset>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+    </form>
+</head>
+<body>
+    
+</body>
+</html>

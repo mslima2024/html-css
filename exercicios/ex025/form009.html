@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Formulário 9</title>
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercício de Formulários</h1>
+    <form action="cadastro.php" method="POST">
+        <fieldset>
+            <legend>Números com range</legend>
+            <label for="inum">Selecione um número</label>
+            <input type="range" name="num" id="inum" min="0" max="10" step="1" value="5" oninput="ival.innerHTML=Number(inum.value)">
+            <output name="valor" id="ival">5</output>
+            
+        </fieldset>
+    </form>
+</body>
+</html>

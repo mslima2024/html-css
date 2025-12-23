@@ -1,0 +1,17 @@
+@charset "UTF-8";
+/* Estilos para impressão */
+*{
+    margin: 10px;
+    padding: 10px;
+}
+html {
+    font-family: Times New Roman, serif;
+    font-size: 12pt;
+}
+menu {
+    display: none;
+}
+article::after {
+    content: " - Página impressa através do site: www.noticias.com";
+    font-style: italic;
+}

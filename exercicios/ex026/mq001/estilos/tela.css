@@ -9,3 +9,60 @@ html {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
 }
+header {
+    background-color: #b7d0b8;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+menu {
+    background-color: #e3e3e3;
+    padding: 10px;
+}
+menu a {
+    text-decoration: none;
+    color: #333333;
+    margin: 0 10px;
+}
+menu a:hover {
+    text-decoration: underline;
+}
+menu ul {
+    list-style-type: none;
+}
+menu li {
+    display: inline-block;
+}
+main {
+    padding: 10px;
+}
+main h1 {
+    color: #4CAF50;
+    margin-bottom: 10px;
+}
+main p {
+    margin-bottom: 10px;
+}
+
+article {
+    padding: 10px;
+}   
+article h2 {
+    color: #4CAF50;
+    margin-bottom: 10px;
+}
+article p {
+    margin-bottom: 10px;
+}
+footer {
+    background-color: #b7d0b8;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+footer p {
+    margin: 0;
+}

@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+/*Estilos gerais para todas as orientações */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 50px;
+}
+h1 {
+    font-size: 2em;
+}
+p {
+    font-size: 1.2em;
+}
+a {
+    color: darkblue;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+/*Estilos específicos para diferentes orientações são definidos em outros arquivos CSS */
+/*paisagem.css e retrato.css */
+/* Estes arquivos são importados conforme a orientação do dispositivo */
+@import url('paisagem.css');
+@import url('retrato.css');

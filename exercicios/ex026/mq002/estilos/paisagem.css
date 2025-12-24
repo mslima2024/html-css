@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+/*Aparelho deitado (landscpape*/
+@media only screen and (orientation: landscape) {
+    body {
+        background-color: lightblue;
+    }
+
+    h1 {
+        color: navy;
+        margin-left: 20px;
+    }
+}

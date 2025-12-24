@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+/*Estilos para visualização em modo retrato (em pé) */
+@media only screen and (orientation: portrait) {
+    body {
+        background-color: lightgreen;
+    }
+
+    h1 {
+        color: darkgreen;
+        margin-left: 10px;
+    }
+}

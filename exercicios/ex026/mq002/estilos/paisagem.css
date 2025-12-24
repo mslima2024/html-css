@@ -3,7 +3,11 @@
 /*Aparelho deitado (landscpape*/
 @media only screen and (orientation: landscape) {
     body {
-        background-color: lightblue;
+        background-image: url(../imagens/cev-landscape.jpg);
+        background-repeat: no-repeat;
+        background-position: left bottom;
+
+
     }
 
     h1 {

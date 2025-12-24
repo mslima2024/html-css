@@ -3,11 +3,20 @@
 /*Estilos para visualização em modo retrato (em pé) */
 @media only screen and (orientation: portrait) {
     body {
-        background-color: lightgreen;
+        background: url('../imagens/cev-portrait.jpg') no-repeat center center fixed;
+        background-size: contain;
+        background-position: center bottom;
+        
     }
 
     h1 {
         color: darkgreen;
         margin-left: 10px;
+    }
+    H2 {
+        color: darkgreen;
+        margin-left: 10px;
+        padding: 10px;
+
     }
 }

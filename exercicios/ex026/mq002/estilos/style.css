@@ -1,27 +1,33 @@
 @charset "UTF-8";
 
 /*Estilos gerais para todas as orientações */
-body {
+
+*{
     font-family: Arial, sans-serif;
-    text-align: center;
-    padding: 50px;
+    margin: 0;
+    padding: 0;
+
 }
-h1 {
-    font-size: 2em;
+html, body {
+    height: 100vh;
+    width: 100vw;
+    background-color: #233eff;
+    background-size: contain;
 }
-p {
-    font-size: 1.2em;
+
+h1{
+    color: white;
+    text-shadow: 2px 2px 4px #1526a7;
+    padding: 10px;
+
 }
-a {
-    color: darkblue;
-    text-decoration: none;
-}
-a:hover {
-    text-decoration: underline;
-}
-img {
-    max-width: 100%;
-    height: auto;
+H2{
+    color: white;
+    text-shadow: 2px 2px 4px #1526a7;
+    padding: 10px;
+    margin: 10px;
+
+
 }
 /*Estilos específicos para diferentes orientações são definidos em outros arquivos CSS */
 /*paisagem.css e retrato.css */

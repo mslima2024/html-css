@@ -1,7 +1,72 @@
 @charset "UTF-8";
 
 /*Todas as demais medias queries estão neste arquivo*/
+/*
+Typical device breakpoints
+Pequenaas telas: Até 600px (celulares)
+Telas médias: 601px a 900px (tablets)
+Telas grandes: 901px a 1200px (desktops)
+Telas extra grandes: Acima de 1200px (TVs)
+*/
 
 @media print {
+    /*Estilos para impressão*/
+    body{
+        background: white url('../imagens/back-print.jpg') no-repeat;/*desnecessário, mas só para exemplo*/
+
+    }
+    main h1{
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+        text-shadow: none;
+        color: black;
+    }
+
+img#phone{display: none;}
+img#tablet{display: none;}
+img#print{display: block;}
+img#pc{display: none;}
+img#tv{display: none;}
+}
+@media screen and (max-width: 600px) {
+    /*Estilos para celulares já está pronto na outra css*/
+
     
+}
+@media screen and (min-width: 768px) and (max-width: 992px){
+/*tablets*/
+body{
+    background-image: url(../imagens/back-tablet.jpg);
+}
+
+img#phone{display: none;}
+img#tablet{display: block;}
+img#print{display: none;}
+img#pc{display: none;}
+img#tv{display: none;}
+
+}
+@media screen and (min-width: 992px) and (max-width: 1200px){
+    /*desktops*/
+    body{
+        background-image: url(../imagens/back-pc.jpg);
+    }
+img#phone{display: none;}
+img#tablet{display: none;}
+img#print{display: none;}
+img#pc{display: block;}
+img#tv{display: none;}
+}
+@media screen and (min-width: 1200px){
+    /*TVs*/
+    body{
+        background-image: url(../imagens/back-tv.jpg);
+    }
+img#phone{display: none;}
+img#tablet{display: none;}  
+img#print{display: none;}
+img#pc{display: none;}
+img#tv{display: block;}
+
+
 }

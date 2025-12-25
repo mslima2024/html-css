@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <style>
+
+        /* Estilo padrão para orientação geral */
+        *{
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+
+        }
+        html, body {
+            height: 100vh;
+            width: 100vw;
+            background-color: #233eff;
+            background-size: contain;
+        }
+
+        h1{
+            color: white;
+            text-shadow: 2px 2px 4px #1526a7;
+            padding: 10px;
+
+        }
+        H2{
+            color: white;
+            text-shadow: 2px 2px 4px #1526a7;
+            padding: 10px;
+            margin: 10px;
+
+
+        }
+
+        /* Estilo para orientação retrato */
+        @media only screen and (orientation: portrait) {
+            body {
+                background: url('../imagens/cev-portrait.jpg') no-repeat center center fixed;
+                background-size: contain;
+                background-position: center bottom;
+                
+            }
+
+            h1 {
+                color: darkgreen;
+                margin-left: 10px;
+            }
+            H2 {
+                color: darkgreen;
+                margin-left: 10px;
+                padding: 10px;
+
+            }
+        }
+
+        /* Media Query para detectar orientação paisagem */
+
+            @media only screen and (orientation: landscape) {
+            body {
+                background-image: url(../imagens/cev-landscape.jpg);
+                background-repeat: no-repeat;
+                background-position: left bottom;
+
+
+            }
+
+            h1 {
+                color: navy;
+                margin-left: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Mude a orientação do seu dispositivo</h1>
+    <p>Altere a orientação do seu dispositivo para ver a mudança de estilo aplicada pela media query.</p>
+    
+</body>
+</html>

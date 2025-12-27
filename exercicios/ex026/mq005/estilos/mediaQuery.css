@@ -8,18 +8,17 @@ Telas médias: 601px a 900px (tablets)
 Telas grandes: 901px a 1200px (desktops)
 Telas extra grandes: Acima de 1200px (TVs)
 */
-@media screen and (min-width : 768px) {
+@media screen and (min-width: 768px) {
     i#burger{
         display: none;
     }
-    menu{
-        display: block;
-        text-align: center;
-    }
-    menu >ul > li{
-        display: inline-block;
-        margin-right: 10px;
-        
+  menu {
+    display: block;
+
+  }
+  menu li{
+      display: inline-block;
+  
     }
 
 }

@@ -49,21 +49,14 @@
     </main>
         
     <script>
-        const burger = document.getElementById("burger");
-        const itens = document.getElementById("itens");
-
-        burger.addEventListener("click", clickMenu);
-        window.addEventListener("resize", mudouTamanho);
 
         function clickMenu() {
-            if (document.getElementById("itens").style.display === "block") {
-                document.getElementById("itens").style.display = "none";
+            var itens = document.getElementById("itens");
             if (itens.style.display === "block") {
                 itens.style.display = "none";
             } else {
-                document.getElementById("itens").style.display = "block";
                 itens.style.display = "block";
-            }   
+            }
         }
 
         function mudouTamanho() {

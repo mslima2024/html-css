@@ -6,12 +6,16 @@
     <title>Media Query</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/mediaQuery.css">
 </head>
+<body onresize="mudouTamanho()">
 <body>
     <header>
         <h1>Site Responsivo - Media Query</h1>
         <i id="burger" class="material-icons" onclick="clickMenu()">menu</i>
         <menu id="itens">
+        <i id="burger" class="material-icons">menu</i>
+        <nav id="itens">
             <ul>
                 <li><a href="#">Opção 1</a> </li>
                 <li><a href="#">Opção 2</a> </li>
@@ -23,6 +27,7 @@
                 <li><a href="#">Opção 8</a></li>  
             </ul>  
         </menu>
+        </nav>
     </header>
     <main>
         <article>
@@ -44,12 +49,31 @@
     </main>
         
     <script>
+        const burger = document.getElementById("burger");
+        const itens = document.getElementById("itens");
+
+        burger.addEventListener("click", clickMenu);
+        window.addEventListener("resize", mudouTamanho);
+
         function clickMenu() {
             if (document.getElementById("itens").style.display === "block") {
                 document.getElementById("itens").style.display = "none";
+            if (itens.style.display === "block") {
+                itens.style.display = "none";
             } else {
                 document.getElementById("itens").style.display = "block";
+                itens.style.display = "block";
             }   
+        }
+
+        function mudouTamanho() {
+            if (window.innerWidth > 800) {
+                document.getElementById("itens").style.display = "block";
+                itens.style.display = "block";
+            } else {
+                document.getElementById("itens").style.display = "none";
+                itens.style.display = "none";
+            }
         }
     </script>
 

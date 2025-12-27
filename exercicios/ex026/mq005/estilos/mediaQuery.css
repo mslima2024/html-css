@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+/*Todas as demais medias queries estão neste arquivo*/
+/*
+Typical device breakpoints
+Pequenaas telas: Até 600px (celulares)
+Telas médias: 601px a 900px (tablets)
+Telas grandes: 901px a 1200px (desktops)
+Telas extra grandes: Acima de 1200px (TVs)
+*/
+@media screen and (min-width : 768px) {
+    i#burger{
+        display: none;
+    }
+    menu{
+        display: block;
+        text-align: center;
+    }
+    menu >ul > li{
+        display: inline-block;
+        margin-right: 10px;
+        
+    }
+
+}
